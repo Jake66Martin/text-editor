@@ -27,9 +27,9 @@ module.exports = () => {
         swDest: 'service-worker.js',
       }),
       new WebpackPwaManifest({
-        name: 'TODOs',
-        short_name: 'TODOs',
-        description: 'Keep track of important tasks!',
+        name: 'Text-Editor',
+        short_name: 'T-E',
+        description: 'Keep track of anything that needs to be written down',
         background_color: '#7eb4e2',
         theme_color: '#7eb4e2',
         start_url: './',
