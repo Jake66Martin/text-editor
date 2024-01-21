@@ -34,3 +34,11 @@ N/A
 My Github username is jake66martin.   
 My github profile link is www.github.com/jake66martin   
 You can also contact me with any further questions at jake66martin@hotmail.com  
+
+## <h2>Screenshot</h2>
+![Screenshot (80)](https://github.com/Jake66Martin/text-editor/assets/139023505/ce56b57a-c41c-4e7d-a6b8-5c7dcdbd27b3)
+
+## <h2>Live URL</h2>
+https://text-editor-hdpv.onrender.com/
+
+
