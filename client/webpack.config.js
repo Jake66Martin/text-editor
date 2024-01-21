@@ -36,7 +36,7 @@ module.exports = () => {
         publicPath: './',
         inject: true,
         fingerprints: false,
-        // filename: 'manifest.json',
+        filename: 'manifest.json',
         icons: [
           {
             src: path.resolve('src/images/logo.png'),
