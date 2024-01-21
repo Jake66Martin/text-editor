@@ -35,7 +35,8 @@ module.exports = () => {
         start_url: './',
         publicPath: './',
         inject: true,
-        filename: 'manifest.json',
+        fingerprints: false,
+        // filename: 'manifest.json',
         icons: [
           {
             src: path.resolve('src/images/logo.png'),
@@ -64,19 +65,7 @@ module.exports = () => {
             }
           }
         },
-        {
-          test: /\.(png|jpe?g|gif)$/i,
-          use: [
-            {
-              loader: 'file-loader',
-              options: {
-                name: '[name].[contenthash].[ext]',
-                outputPath: 'images',
-                publicPath: 'images',
-              },
-            },
-          ],
-        },
+      
         
       ],
       
